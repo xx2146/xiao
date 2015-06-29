@@ -1,0 +1,21 @@
+1. 从http://www.dell.com/support/home/us/en/19/Drivers/DriversDetails?driverId=53R21&fileId=3333875845&osCode=1204A&productCode=precision-m4800-workstation&languageCode=EN&categoryId=CS   下载压缩文件M4800_M6800_A03.fish.tar.gz
+
+2. 从packages.ubuntu.com找到bcmwl-kernel-source_6.20.155.1+bdcom-****.deb
+3. Update!!!!!!   sudo apt-get update
+3. 从M4800里把1550***.deb解压出来
+4. 把.deb文件拷到电脑上
+5. 把ubuntu安装.iso文件mount上去：
+   sudo mkdir /media/cdrom
+   sudo mount -o loop ubuntu-* /media/cdrom
+6.在software & updates 里面把additional drivers加上去
+7. 断掉有线网，拔出U盘！！！
+8. 安装第三步的.deb
+9. 安装第二步的.deb
+上网！！！
+注：实际操作上可能有偏差，若有偏差，以此为准进行trial & error
+
+
+Method version 2:  MUCH EASIER!!
+
+1.  Keep the installation U-disk on the computer.
+2.  Connect to wire. Run sudo apt-get install bcmwl-kernel-source

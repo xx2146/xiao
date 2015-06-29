@@ -1,0 +1,5 @@
+sudo apt-get install ibus-sunpinyin sunpinyin-data
+
+If sunpinyin does not work,  run:
+
+ibus-setup

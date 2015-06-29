@@ -1,0 +1,32 @@
+To obtain the latest R packages, add an entry like
+
+    deb http://<my.favorite.cran.mirror>/bin/linux/ubuntu vivid/
+
+or
+
+    deb http://<my.favorite.cran.mirror>/bin/linux/ubuntu utopic/
+
+or 
+
+    deb http://<my.favorite.cran.mirror>/bin/linux/ubuntu trusty/
+   
+or
+
+    deb http://<my.favorite.cran.mirror>/bin/linux/ubuntu precise/
+   
+or
+
+in your /etc/apt/sources.list file, replacing <my.favorite.cran.mirror> by the actual URL of your favorite CRAN mirror. See http://cran.r-project.org/mirrors.html for the list of CRAN mirrors. 
+
+For example:
+
+deb http://lib.stat.cmu.edu/R/CRAN/linux/ubuntu trusty/
+
+To install the complete R system, use
+
+    sudo apt-get update
+    sudo apt-get install r-base
+
+Users who need to compile R packages from source [e.g. package maintainers, or anyone installing packages with install.packages()] should also install the r-base-dev package:
+
+    sudo apt-get install r-base-dev

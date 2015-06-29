@@ -1,0 +1,19 @@
+1. Install python
+2. Install Synaptic
+3. In synaptic, install:
+   *ipython notebook
+   *matplotlib
+   *scipy
+   *pandas
+   *sympy
+   *python setuptools
+4. tornado 4.2 https://pypi.python.org/pypi/tornado
+   tar xvzf tornado-$VERSION.tar.gz
+   cd tornado-$VERSION
+   python setup.py build
+   sudo python setup.py install
+5. jsonschema https://pypi.python.org/pypi/jsonschema#downloads
+   same as installing tornado, run the setup.py file with python, build and then   install
+
+6.Themes:
+https://github.com/nsonnad/base16-ipython-notebook
